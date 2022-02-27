@@ -11,9 +11,8 @@ public class solution {
         BufferedReader br = new BufferedReader(new FileReader(file));
 
         Scanner s = new Scanner(br);
+        int a = 98;
+        System.out.println((char)a);
 
-
-        prioritiesSolution ps = new prioritiesSolution();
-        ps.run(s);
     }
 }
